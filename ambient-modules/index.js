@@ -1,2 +1,6 @@
-import hogeJson from './hoge.json' with { type: 'json' };
-console.log(hogeJson);
+import hogeJson from './data/hoge.json' with { type: 'json' };
+import piyoCss from './data/piyo.css' with { type: 'css' };
+import hugaMd from './data/huga.md' with { type: 'text' };
+console.log(hogeJson.description);
+console.log(hugaMd.length);
+console.log(piyoCss.title);
