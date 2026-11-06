@@ -3,6 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "target": "ES2022",
-    "module": "NodeNext"
+    "module": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+    "types": ["node"]
   }
 }

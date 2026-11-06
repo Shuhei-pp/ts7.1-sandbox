@@ -1,6 +1,10 @@
 {
   "devDependencies": {
+    "@types/node": "^26.6.6",
     "typescript": "^7.1.0-beta"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "node": "^26.13.0"
+  }
 }
